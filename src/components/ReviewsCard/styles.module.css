@@ -1,0 +1,30 @@
+.card-wrapper {
+    background-color: bisque;
+    max-width: 350px;
+    /* width: 100%; why??????*/
+    padding: 1rem;
+    border-radius: 1rem;
+    text-align: center;
+
+}
+
+.img-wrapper {
+    background-color: #dddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    max-width: 250px;
+    min-height: 250px;
+    margin:0 auto;
+    overflow: hidden;
+}
+
+.info-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1rem;
+}
+
+
+

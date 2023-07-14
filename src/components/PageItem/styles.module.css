@@ -1,0 +1,22 @@
+.container {
+    display:flex;
+    justify-content:space-between;
+    
+}
+
+.reverse{
+    flex-direction: row-reverse;
+}
+
+.img-wrapper {
+    background-color: bisque;
+    width: 50%;
+
+}
+
+.text-wrapper {
+    background-color: bisque;
+    width: 50%;
+    padding: 2rem;
+}
+

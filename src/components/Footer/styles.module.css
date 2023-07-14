@@ -1,0 +1,9 @@
+.section-footer {
+    background-color: #ddd;
+}
+.section-footer > div {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+}

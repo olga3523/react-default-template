@@ -1,0 +1,7 @@
+.social-media {
+    display:flex;
+    gap:0.5rem;
+}
+.link {
+    font-size: 2rem;
+}

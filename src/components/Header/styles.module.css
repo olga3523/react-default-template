@@ -1,0 +1,25 @@
+.header {
+    background-color: #ddd;
+}
+
+.header > div {
+    display:flex;
+    justify-content: space-between;
+    padding:1rem;
+    align-items: center;
+
+}
+
+.menu .link {
+    margin:0 1rem;
+
+}
+
+.social-media  .link {
+    margin-left: 1rem;
+}
+
+.logo{
+    font-size:1.5em;
+    
+}
