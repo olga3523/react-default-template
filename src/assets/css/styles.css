@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
 
 body {
@@ -30,6 +29,13 @@ a {
     text-decoration: none;
 }
 
+.btn {
+    background: 0;
+    border: 0;
+    cursor: pointer;
+    outline: none;
+}
+
 .img-wrapper img {
     width: 100%;
 
@@ -45,5 +51,6 @@ a {
 }
 
 .link {
-    
+    font-size: 2rem;
+    line-height: 0;
 }
