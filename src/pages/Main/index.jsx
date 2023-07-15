@@ -8,32 +8,28 @@ import { INFO_CART_LIST, INVITE_PAGE_DATA, ABOUT_US_PAGE_DATA, REVIEW_CARD_LIST 
 import styles from "./styles.module.css"
 
 
-function Main(){
-    
+function Main() {
+
     return <div>
-        <Header/>
+        <Header />
         <main className={styles["main"]}>
             <h1>Coming soon</h1>
         </main>
 
         <section className={styles["info-card-wrapper"]}>
-            {INFO_CART_LIST.map((item)=> {
-
-            return <InfoCard data={item}/>
-                {/*return InfoCard({data:item,name:'olga'})*/}
-            })}
+            {INFO_CART_LIST.map((item) => <InfoCard data={item} />)}
         </section>
 
-        <PageItem data={INVITE_PAGE_DATA}/>
-        <PageItem isReverse={true} data={ABOUT_US_PAGE_DATA}/>
+        <PageItem data={INVITE_PAGE_DATA} />
+        <PageItem isReverse={true} data={ABOUT_US_PAGE_DATA} />
 
         <section className={styles["review-card-wrapper"]}>
-            {REVIEW_CARD_LIST.map((card)=><ReviewsCard data={card} key={card.id}/>)}
+            {REVIEW_CARD_LIST.map((card) => <ReviewsCard data={card} key={card.id} />)}
         </section>
 
-        <Footer/>
-        
-        
+        <Footer />
+
+
     </div>
 
 }
