@@ -7,7 +7,7 @@ import { useState } from "react";
 
 
 function Header() {
-    const [openMibileMenu, setOpenMobileMenu] = useState(false);
+    const [openMobileMenu, setOpenMobileMenu] = useState(false);
 
     return <header className={styles["header"]}>
         <div className="container">
@@ -20,7 +20,7 @@ function Header() {
             <nav className={classNames(
                 styles["menu"],
                 {
-                    [styles['active']]: openMibileMenu
+                    [styles['active']]: openMobileMenu
                 }
             )}>
                 <Link to={"/"} className={styles["link"]}>Main</Link>
